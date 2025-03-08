@@ -1,6 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
-
 const HowWeThrive = () => {
   return (
     <section className="bg-gray-900 text-white py-24">
