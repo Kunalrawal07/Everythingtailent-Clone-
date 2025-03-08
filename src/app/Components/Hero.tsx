@@ -49,6 +49,7 @@ const Hero: React.FC = () => {
     };
   }, []);
 
+
   return (
     <section className={`relative pt-28 pb-16 px-4 sm:px-6 lg:px-8 ${isDarkMode ? 'bg-black text-white' : 'bg-white text-gray-800'} overflow-hidden transition-colors duration-300`}>
       {/* Animated background elements */}
@@ -100,6 +101,7 @@ const Hero: React.FC = () => {
               Start Trial Now
             </Button>
           </div>
+          
           
           {/* Right content - Image with effects */}
           <div className="w-full lg:w-1/2 relative">
